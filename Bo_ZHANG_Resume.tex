@@ -1,7 +1,7 @@
 % LaTeX file for resume
 % This file uses the resume document class (res.cls)
 
-\documentclass[11pt]{res}
+\documentclass[12pt]{res}
 \rmfamily
 \renewcommand{\rmdefault}{ptm}
 \linespread{0.95}
@@ -27,7 +27,7 @@
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font
 \setlength{\textheight}{9.5in} % increase text height to fit on 1-page
-\topmargin=-0.4in
+\topmargin=-0.3in
 
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\textwidth}{0.65in}
@@ -44,7 +44,7 @@
 \textbf{\LARGE Bo Zhang}\\
 \vspace{-1.0mm}
 \hspace{-1.35cm}
-{\indent \bf Address}: 4106 Yosemite Street, Cedar Park,  TX, USA \hfill {\bf Phone}: (+1) 734-546-5863\\
+{\indent \bf Address}: 4106 Yosemite Street, Cedar Park,  TX, USA 78613 \hfill {\bf Phone}: (+1) 734-546-5863\\
 \vspace{-1.2mm}
 \hspace{-1.35cm}
 {\indent \bf Homepage}: {\color{Blue}\url{http://www-personal.umich.edu/\textasciitilde gcbo}} \hfill {\bf Email}: gcbo@umich.edu\\
@@ -55,12 +55,12 @@
 
 
 \vspace{-35pt}
-%\section{\style{Objective}}
-%\vspace{-10pt}
-%\rule{18cm}{0.5mm}\\
-%\parshape 1 -\sectionwidth \resumewidth
-%Seeking a full-time position of SW/performance engineer starting in Oct. 2017\hspace{-0.58in}
-%\vspace{-25pt}\\
+\section{\style{Objective}}
+\vspace{-10pt}
+\rule{18cm}{0.5mm}\\
+\parshape 1 -\sectionwidth \resumewidth
+Seeking a full-time position of Research Engineer(Job ID: 8487) in ARM \hspace{-0.58in}
+\vspace{-25pt}\\
 
 %--------------------------------------------------------------------------------------------------------------------------------------------------
 \section{\style{Education}}
@@ -68,15 +68,20 @@
 \rule{18cm}{0.5mm}\\
 \parshape 1 -\sectionwidth \resumewidth
 {\textbf {University of Michigan}, Ann Arbor - MI, USA \\}
-{Master in \textbf{Electrical Engineering} - \textbf{GPA: 3.8/4.0}    \hfill Sep. 2014 - Dec. 2015\hspace{-0.58in} \vspace{-0.8mm}\\}
-%{Relevant courses: Computer Architecture(EECS470) \hspace{0.2cm} Operating System(EECS482) \hspace{0.2cm} Microachitecture(EECS573)\\}
-%{\indent \hspace{2.75cm}   Embedded System(EECS461) \hspace{0.2cm} Computer Vision(EECS598) \hspace{0.2cm} Solid-State Device(EECS423) \\}
+{Master in \textbf{Electrical Engineering} - \textbf{GPA: 3.8/4.0}  \hfill Sep. 2014 - Dec. 2015\hspace{-0.58in} \vspace{-0.8mm}\\}
+ \vspace{-12pt}
+\begin{itemize}[leftmargin=-0.5in]
+\item[] Relevant courses: Computer Architecture, Operating System, Microachitecture, Embedded System, Computer Vision, Solid-State Device\\
+\end{itemize}
+\vspace{-28pt}
 {\textbf {Shanghai Jiao Tong University},  - Shanghai, China \\}
 {Bachelor in \textbf{Electrical Engineering} - \textbf{GPA: 3.76/4.0} , \textbf{Valedictorian}   \hfill 2010 - 2014\hspace{-0.58in} \vspace{-0.8mm}\\}
-%{Relevant courses: Computer Organization \hspace{0.3cm}  Logic Design \hspace{0.3cm}Programming and Intro. Data Structures\\}
-%{\indent \hspace{2.75cm}  Semiconductor Devices \hspace{0.3cm} Design of Microprocessor Based Systems\\}
-  
- \vspace{-25pt}
+ \vspace{-12pt}
+\begin{itemize}[leftmargin=-0.5in]
+\item[] Relevant courses: Computer Organization, Logic Design, Programming and Intro to Data Structures, Semiconductor Devices, Design of Microprocessor Based Systems\\
+\end{itemize}
+\vspace{-28pt}
+
 %--------------------------------------------------------------------------------------------------------------------------------------------------
 \section{\style{Work Experience}}
 
@@ -84,9 +89,8 @@
 \rule{18cm}{0.5mm}\\
 \parshape 1 -\sectionwidth \resumewidth
 {\textbf{Oracle,}  Austin, TX\hfill April 2016 - Now} \hspace{-0.58in}\vspace{-0mm}\\\
-  \textbf{Hardware Engineer} \\
+  \textbf{CPU Performance Analysis Engineer} \\
  \vspace{-14pt}
-
  \begin{itemize}[leftmargin=-0.1in]
    \item Use JMH microbenchmarks to evaluate the Hotspot JVM performance on both SPARC and x86 machines\vspace{-5pt}
    \item Investigate and solve performance issues on SPARC and JVM  \vspace{-5pt}
@@ -102,9 +106,7 @@
 {\textbf{National Instruments,}  Austin, TX\hfill Summer 2015} \hspace{-0.58in}\vspace{-0mm}\\\
   \textbf{Hardware Engineer Intern} \\
  \vspace{-14pt}
-
  \begin{itemize}[leftmargin=-0.1in]
-   
   \item Created an interface between Digital Input Module and FPGA Chassis using VHDL\vspace{-5pt}
   \item Developed test benches and scripts verifying interface design on both IP level and SoC level \vspace{-5pt}
   \item Developed plug-in VIs in Labview and tested on real hardware of Digital Input Module\\
@@ -116,8 +118,8 @@
 \vspace{-10pt}
 \rule{18cm}{0.5mm}\\
 \parshape 1 -\sectionwidth \resumewidth
- \textbf{Languages:}  Java, Scala, System Verilog, VHDL, C/C++, Matlab, bash script, assembly, Linux command    \hfill \vspace{-0.5mm}\\
-  \textbf{Applications:} Synopsys VCS,  ModelSim, Xilinx, Simulink, Labview\\%Logic Analyzer\\ 
+ \textbf{Languages:}  Java, Scala, System Verilog, VHDL, C/C++, Matlab, bash script, perl, assembly    \hfill \vspace{-0.5mm}\\
+ \textbf{Applications:} Synopsys VCS,  ModelSim, Xilinx, Simulink, Labview\\%Logic Analyzer\\ 
   %  \item Experience with Silvaco\vspace{-0.1cm}     \item Hands-on fabrication and testing of IC device\vspace{-0.1cm}
   %  \item Fluent in English and native speaker in mandarin Chinese\vspace{-0.1cm}
   %  \item Proficienct in Matlab, System Verilog, VHDL, Embedded C, Labview, Latex \vspace{-0.1cm}
@@ -131,22 +133,22 @@
 \vspace{-10pt}
 \rule{18cm}{0.5mm}\\
 \parshape 1 -\sectionwidth \resumewidth
- \textbf{RTL Design of Out-of-order Microprocessor in System Verilog}{(EECS470)}  \hfill{Winter 2015} \hspace{-0.58in}\vspace{-0mm}\\
+ \textbf{RTL Design of Out-of-order Microprocessor in Verilog}{(EECS470)}  \hfill{Winter 2015} \hspace{-0.58in}\vspace{-0mm}\\
   \vspace{-14pt}
  \begin{itemize}[leftmargin=-0.1in]
   \item Implemented a synthesizable 4-way super-scalar out-of-order P6  processor \vspace{-5pt}
   \item Responsible for implementing LSQ for data forwarding, functional units,  reservation station, renaming table\vspace{-5pt}
-  \item Developed test bench for both IP level and SoC level verification\vspace{-5pt}
-  \item Developed a bash-script to auto run all testcases and compare output, which reduced debugging time a lot\vspace{-3pt}
+  \item Developed test bench for both IP level and SoC level verification\vspace{-3pt}
+
 \end{itemize}\vspace{-10pt}
    
-  \parshape 1 -\sectionwidth \resumewidth
-\textbf{RTL Design of Synthesizable 5-stages in-order Pipelined Processor in Verilog}{(EECS470)}   \hfill{Winter 2015} \hspace{-0.58in}\vspace{-0mm}\\
-\vspace{-14pt}
- \begin{itemize}[leftmargin=-0.1in]
-  \item Modeled and simulated the processor in Synopsys synthesis tool  \vspace{-5pt}
-  \item Designed and tested data hazard and control hazard detection module \vspace{-3pt}
-   \end{itemize}\vspace{-10pt}
+% \parshape 1 -\sectionwidth \resumewidth
+% \textbf{RTL Design of Synthesizable 5-stages in-order Pipelined Processor in Verilog}{(EECS470)}   \hfill{Winter 2015} \hspace{-0.58in}\vspace{-0mm}\\
+%\vspace{-14pt}
+% \begin{itemize}[leftmargin=-0.1in]
+%  \item Modeled and simulated the processor in Synopsys synthesis tool  \vspace{-5pt}
+%  \item Designed and tested data hazard and control hazard detection module \vspace{-3pt}
+%   \end{itemize}\vspace{-10pt}
 
 \parshape 1 -\sectionwidth \resumewidth
  \textbf{Multi-threaded Secure Network File Server}{(EECS482)}   \hfill{Fall 2015} \hspace{-0.58in}\vspace{-0mm}\\
@@ -179,14 +181,14 @@
 %   \end{itemize}\vspace{-10pt}
 
 
-
- \parshape 1 -\sectionwidth \resumewidth  
-\textbf{Smart Car with an Adaptive Cruise Control of Visual and Haptic Feedback}{(EECS461)}   \hfill{Winter 2015}  \hspace{-0.58in}\vspace{-0mm}\\
-  \vspace{-14pt}
- \begin{itemize}[leftmargin=-0.1in]
-  \item Created a Simulink module that models a simple car with CAN bus and adaptive cruise control system  \vspace{-5pt}
-  \item Implemented an automatic steering controller using a PID implementation to keep the vehicle at the center of the road  \vspace{-3pt}
-   \end{itemize}\vspace{-10pt}
+%
+% \parshape 1 -\sectionwidth \resumewidth  
+%\textbf{Smart Car with Adaptive Cruise Control}{(EECS461)}  \hfill{Winter 2015} \hspace{-0.58in}\vspace{-0mm}\\
+%  \vspace{-14pt}
+% \begin{itemize}[leftmargin=-0.1in]
+%  \item Created a Simulink module that models a simple car with CAN bus and adaptive cruise control system\vspace{-5pt}
+%  \item Implemented an automatic steering controller using a PID implementation to keep the vehicle at the center of the road\vspace{-3pt}
+%   \end{itemize}\vspace{-10pt}
      
 
 \parshape 1 -\sectionwidth \resumewidth
@@ -218,29 +220,21 @@
    
 
 %--------------------------------------------------------------------------------------------------------------------------------------------------
-%\vspace{-25pt}
-\section{\style{Leadership}}
-  \vspace{-10pt}
-\rule{18cm}{0.5mm}\\
-\parshape 1 -\sectionwidth \resumewidth
- \textbf{Mentor} of CEDO Peer-Mentoring Program in University of Michigan \hfill{Fall 2015}  \hspace{-0.58in}\vspace{-0mm}
-   \begin{itemize}[leftmargin=-0.1in]
-  \item Shared academic and work experience and guided freshman protege for the whole semester
-   \end{itemize}\vspace{-15pt}
-   
-   \parshape 1 -\sectionwidth \resumewidth 
-  \textbf{Valedictorian} of Shanghai Jiao Tong University Undergraduate Commencement   \hfill{June 2014}  \hspace{-0.58in}\vspace{-0mm}
-   \begin{itemize}[leftmargin=-0.1in]
-  \item Delivered a valedictorian speech to over 3000 audience on 2014 Undergraduate Commencement of SJTU
-%  \end{itemize}\vspace{-15pt}
-%  
-%\parshape 1 -\sectionwidth \resumewidth  
-%  \textbf{Vice President} of Shanghai Jiao Tong University Tencent Innovation Association  \hfill{2012 - 2014} \hspace{-0.58in}\vspace{-0mm}
-%      \begin{itemize}[leftmargin=-0.1in]
-%          \item Supervised approximately 50 members who were interested in internet innovation
-%          \vspace{-5pt}
-%          \item Organized monthly lectures and experience sharing salons for undergraduate students
-     \end{itemize}\vspace{-25pt}
+%
+%\section{\style{Leadership}}
+%  \vspace{-10pt}
+%\rule{18cm}{0.5mm}\\
+%\parshape 1 -\sectionwidth \resumewidth
+% \textbf{Mentor} of CEDO Peer-Mentoring Program in University of Michigan \hfill{Fall 2015}  \hspace{-0.58in}\vspace{-0mm}
+%   \begin{itemize}[leftmargin=-0.1in]
+%  \item Shared academic and work experience and guided freshman protege for the whole semester
+%   \end{itemize}\vspace{-15pt}
+%   
+%   \parshape 1 -\sectionwidth \resumewidth 
+%  \textbf{Valedictorian} of Shanghai Jiao Tong University Undergraduate Commencement   \hfill{June 2014}  \hspace{-0.58in}\vspace{-0mm}
+%   \begin{itemize}[leftmargin=-0.1in]
+%  \item Delivered a valedictorian speech to over 3000 audience on 2014 Undergraduate Commencement of SJTU
+%     \end{itemize}\vspace{-25pt}
 
 %--------------------------------------------------------------------------------------------------------------------------------------------------
 \begin{comment}
